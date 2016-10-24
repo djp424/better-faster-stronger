@@ -1,0 +1,10 @@
+# Ignore all
+*
+
+# Unignore anything with extention
+!*/
+!*.*
+
+# Except for the following
+*.DS_Store
+*.class
