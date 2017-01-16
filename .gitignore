@@ -1,7 +1,7 @@
 # Ignore all
 *
 
-# Unignore anything with extention
+# Unignore anything with extension
 !*/
 !*.*
 
