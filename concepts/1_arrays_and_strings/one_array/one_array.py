@@ -54,9 +54,12 @@ def base(old,new):
 			elif second == 'true': # second is longer
 				i2 += 1
 				pass
-
-		i1 += 1
-		i2 += 1
+			else:
+				i1 += 1
+				i2 += 1
+		else:
+			i1 += 1
+			i2 += 1
 
 	return 'true'
 
@@ -69,5 +72,5 @@ def run_tests():
 	print base('pale','bake') # false - two steps away
 	print base('bbake','bake') # true - remove one
 
-# run_tests()
-run_timer()
+run_tests()
+# run_timer()
