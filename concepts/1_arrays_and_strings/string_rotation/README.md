@@ -1,8 +1,2 @@
 # Description
-Given image representation of NxN matrix, write a method to rotate it 90 degrees (each pixel is 4 bytes). Can you do this in place?
-
-# How to solve
-A 4 way edge swap.
-
-# Thought Process
-1. rotate 4 at a time
+Given 2 strings, check if the second string is a rotation of the first. You are giving a substring function that you can only call once (example of substring: waterbottle is a rotation of erbottlewat)
