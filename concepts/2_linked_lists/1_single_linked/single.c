@@ -88,11 +88,14 @@ int main() {
 		printf("Not empty\n");
 	}
 
+	// insertStart(6); // causes seg fault
 	insertStart(2);
 	insertStart(4);
 	insertStart(6);
 	insertStart(8);
+	insertStart(6);
 	insertStart(100);
+	// insertStart(6); // causes seg fault
 
 	printList();
 
